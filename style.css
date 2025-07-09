@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common Attributes  */
+.primary-btn {
+  height: 45px;
+  width: 130px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+}
+.font-dark-2 {
+  color: #474747;
+}
+.font-dark-1 {
+  color: #181818;
+}
+.font-dark-3 {
+  color: #757575;
+}
+
+/* Nav design */
+
+.name-logo {
+  font-size: 40px;
+}
+
+.header {
+  background-color: #fff8f3;
+  background-image: url(Images/developer.png), url(Images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100px 700px, 600px 400px;
+  /* background-position: left bottom, bottom right; */
+  max-height: 800px;
+   background-position: 20px calc(100% - 20px), bottom right;
+
+  max-height: 800px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 50px;
+}
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+.nav-bar ul li {
+  list-style-type: none;
+  padding: 65px;
+}
+.nav-bar ul li a,
+.hire-btn a {
+  text-decoration: none;
+}
+
+/* AboutSection */
+.intro {
+  font-size: 30px;
+}
+.s-word {
+  color: #fd6e0a;
+}
+.name {
+  font-size: 40px;
+}
+.my-intro {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio-img {
+  max-width: 550px;
+  height: 550px;
+
+  margin-right: 20px;
+}
+.about-content {
+  /* width: 550px; */
+  margin: 0px 35px 0px 200px;
+}
+.download-cv-btn {
+  margin-right: 30px;
+}
