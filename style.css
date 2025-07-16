@@ -35,7 +35,7 @@
   background-size: 100px 700px, 600px 400px;
   /* background-position: left bottom, bottom right; */
   max-height: 800px;
-   background-position: 20px calc(100% - 20px), bottom right;
+  background-position: 20px calc(100% - 20px), bottom right;
 
   max-height: 800px;
 }
@@ -91,4 +91,86 @@
 }
 .download-cv-btn {
   margin-right: 30px;
+}
+/* About-section-Main */
+.about-section {
+  max-width: 700px;
+  margin: 0px auto;
+  background-color: #fd6e0a;
+  border-radius: 10px;
+}
+.about-section-intro {
+  /* display: flex; */
+  margin: 30px 0px;
+  text-align: center;
+  padding-top: 30px;
+}
+.about-section-name-email-dob-location {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-section-name,
+.about-section-email,
+.about-section-dob,
+.about-section-location {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Skills Section */
+.skills-section {
+  margin: 70px 70px;
+}
+.skill-intro {
+  text-align: center;
+}
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.skills img,
+h3 {
+  margin-bottom: 30px;
+}
+.skill-intro h1 {
+  margin-bottom: 15px;
+}
+.javascript,
+.react,
+.node,
+.mongo {
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05), -5px -5px 15px rgba(255, 255, 255, 0.7);  */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+
+}
+/* Summary Section */
+.summary-section{
+  margin: 70px 70px;
+  padding: 20px;
+background-color: aqua;
+border-radius: 10px;
+}
+.summary-heading{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.education-experience p{
+  padding: 20px 0px;
+}
+.education-experience{
+display: flex;
+padding: 10px;
+gap: 50px;
+background-color: red;
+
+}
+.edu-heading, .exp-heading{
+  margin-bottom: 30px;
+}
+.summary-download-btn{
+  text-align: center;
 }
