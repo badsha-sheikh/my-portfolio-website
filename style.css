@@ -33,7 +33,6 @@
   background-image: url(Images/developer.png), url(Images/header_bg.png);
   background-repeat: no-repeat;
   background-size: 100px 700px, 600px 400px;
-  /* background-position: left bottom, bottom right; */
   max-height: 800px;
   background-position: 20px calc(100% - 20px), bottom right;
 
@@ -86,7 +85,6 @@
   margin-right: 20px;
 }
 .about-content {
-  /* width: 550px; */
   margin: 0px 35px 0px 200px;
 }
 .download-cv-btn {
@@ -223,6 +221,122 @@ form label {
   font-size: 17px;
   font-weight: 600;
 }
-.form-intro h1{
+.form-intro h1 {
   font-size: 3.5rem;
+}
+/* Making Responsive */
+/* responsive for small device */
+@media screen and (max-width: 576px) {
+  .header {
+    background-color: #fff8f3;
+    background-image: none;
+
+    max-height: 500px;
+
+    max-height: 500px;
+    text-align: center;
+  }
+   .name-logo {
+    font-size: 2rem;
+  }
+  .about-section {
+  max-width: 400px;
+  margin: 0px auto;
+  
+}
+  .nav-bar {
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 5px;
+    
+  }
+  .name-logo {
+    font-size: 2.5rem;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-bar ul li {
+    padding: 5px;
+  }
+  .about {
+    flex-direction: column;
+    max-width: 100vw;
+    height: calc(100vh - 20px);
+  }
+  .about-section-name-email-dob-location{
+    flex-wrap: wrap;
+  }
+  .img {
+    height: 300px;
+    width: 200px;
+  }
+  .about-content {
+    width: calc(100vw - 10px);
+    height: 400px;
+    margin: 0px 5px 0px 20px;
+  }
+  .portfolio-img {
+    height: 100%;
+    display: none;
+  }
+
+  .my-intro {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: scroll;
+  }
+  .skills {
+    flex-direction: column;
+
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .education-experience {
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+  }
+  .summary-download-btn {
+    position: static;
+    margin-top: 10px;
+  }
+  .login-form-left-right {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+
+  .login-form-section {
+  margin: 20px 30px;
+ 
+}
+
+form input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  width:100px;
+}
+.form-text-box,
+.form-btn {
+  margin-top: 5px;
+  width: 200px;
+}
+.form-intro h1 {
+  color: black;
+}
+form label {
+  font-size: 1ren;
+  font-weight: 600;
+}
+.form-intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
 }
